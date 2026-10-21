@@ -1,0 +1,29 @@
+# Generated app bundles, caches, archives and local diagnostics
+build/
+DerivedData/
+*.app/
+*.dSYM/
+*.zip
+*.log
+*.trace
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Local credentials and personal media never belong in the source repository
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.mobileprovision
+*.key
+Recovery/
+Recovered-recording/
+recordings/
+transcripts/
+*.m4a
+*.mp4
+*.mov
+*.wav
+*.caf
