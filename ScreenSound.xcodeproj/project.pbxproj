@@ -1,0 +1,48 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+        000000000000000000000080 = { isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+        000000000000000000000081 = { isa = PBXFileReference; lastKnownFileType = image.png; path = "ScreenSound-icon.png"; sourceTree = "<group>"; };
+        000000000000000000000082 = { isa = PBXBuildFile; fileRef = 000000000000000000000080; };
+        000000000000000000000083 = { isa = PBXBuildFile; fileRef = 000000000000000000000081; };
+        000000000000000000000084 = { isa = PBXGroup; children = (000000000000000000000080, 000000000000000000000081); path = Assets; sourceTree = "<group>"; };
+        000000000000000000000085 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000082, 000000000000000000000083); runOnlyForDeploymentPostprocessing = 0; };
+        000000000000000000000078 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePanels.swift; sourceTree = "<group>"; };
+        000000000000000000000079 = { isa = PBXBuildFile; fileRef = 000000000000000000000078; };
+		000000000000000000000064 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClient.swift; sourceTree = "<group>"; };
+		00000000000000000000006E = { isa = PBXBuildFile; fileRef = 000000000000000000000064; };
+		000000000000000000000065 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIModel.swift; sourceTree = "<group>"; };
+		00000000000000000000006F = { isa = PBXBuildFile; fileRef = 000000000000000000000065; };
+		000000000000000000000066 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		000000000000000000000070 = { isa = PBXBuildFile; fileRef = 000000000000000000000066; };
+		000000000000000000000067 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPreparation.swift; sourceTree = "<group>"; };
+		000000000000000000000071 = { isa = PBXBuildFile; fileRef = 000000000000000000000067; };
+		000000000000000000000068 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		000000000000000000000072 = { isa = PBXBuildFile; fileRef = 000000000000000000000068; };
+		00000000000000000000000A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSoundApp.swift; sourceTree = "<group>"; };
+		000000000000000000000014 = { isa = PBXBuildFile; fileRef = 00000000000000000000000A; };
+		00000000000000000000000B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderModel.swift; sourceTree = "<group>"; };
+		000000000000000000000015 = { isa = PBXBuildFile; fileRef = 00000000000000000000000B; };
+		00000000000000000000000C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSink.swift; sourceTree = "<group>"; };
+		000000000000000000000016 = { isa = PBXBuildFile; fileRef = 00000000000000000000000C; };
+		00000000000000000000001E = { isa = PBXFileReference; explicitFileType = wrapper.application; path = ScreenSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000001F = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000001 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = 000000000000000000000032; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (ru, en, Base); mainGroup = 000000000000000000000002; productRefGroup = 000000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (000000000000000000000005); };
+		000000000000000000000002 = { isa = PBXGroup; children = (000000000000000000000084, 000000000000000000000003, 00000000000000000000001F, 000000000000000000000004); sourceTree = "<group>"; };
+		000000000000000000000003 = { isa = PBXGroup; children = (000000000000000000000078, 000000000000000000000064, 000000000000000000000065, 000000000000000000000066, 000000000000000000000067, 000000000000000000000068, 00000000000000000000000A, 00000000000000000000000B, 00000000000000000000000C); path = Sources; sourceTree = "<group>"; };
+		000000000000000000000004 = { isa = PBXGroup; children = (00000000000000000000001E); name = Products; sourceTree = "<group>"; };
+		000000000000000000000005 = { isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000033; buildPhases = (000000000000000000000006, 000000000000000000000007, 000000000000000000000085); buildRules = (); dependencies = (); name = ScreenSound; productName = ScreenSound; productReference = 00000000000000000000001E; productType = "com.apple.product-type.application"; };
+		000000000000000000000006 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000079, 00000000000000000000006E, 00000000000000000000006F, 000000000000000000000070, 000000000000000000000071, 000000000000000000000072, 000000000000000000000014, 000000000000000000000015, 000000000000000000000016); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000007 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000032 = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000003C, 00000000000000000000003D); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000033 = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000003E, 00000000000000000000003F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		00000000000000000000003C = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; }; name = Debug; };
+		00000000000000000000003D = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; }; name = Release; };
+		00000000000000000000003E = { isa = XCBuildConfiguration; buildSettings = { ARCHS = arm64; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; PRODUCT_BUNDLE_IDENTIFIER = local.screensound.recorder; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		00000000000000000000003F = { isa = XCBuildConfiguration; buildSettings = { ARCHS = arm64; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; PRODUCT_BUNDLE_IDENTIFIER = local.screensound.recorder; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+	};
+	rootObject = 000000000000000000000001;
+}
