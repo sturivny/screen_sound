@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleDevelopmentRegion</key><string>en</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundleExecutable</key><string>ScreenSound</string>
+<key>CFBundleIdentifier</key><string>local.screensound.recorder</string>
+<key>CFBundleName</key><string>ScreenSound</string>
+<key>CFBundleDisplayName</key><string>ScreenSound</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.2</string>
+<key>CFBundleVersion</key><string>3</string>
+<key>LSMinimumSystemVersion</key><string>15.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSDownloadsFolderUsageDescription</key><string>ScreenSound saves a copy of your recording to Downloads when you click Export to Downloads.</string>
+<key>NSMicrophoneUsageDescription</key><string>ScreenSound records your microphone together with system audio to a file you choose.</string>
+<key>NSScreenCaptureUsageDescription</key><string>ScreenSound records system audio and, optionally, your screen.</string>
+</dict></plist>
